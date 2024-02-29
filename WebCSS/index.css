@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0.5px; 
+    margin-bottom: 10px;
+}
+
+h1 {
+    color:rgb(233, 238, 246);
+    padding-top: 30%;
+    padding-bottom: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: rgb(233, 238, 246);
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#registro {
+   text-align: center;
+    
+}
+
+#registro p,
+#registro input,
+#registro button {
+            margin: 10px 0;  
+        }
+
+button {
+    border-radius: 5px;
+    width: 240px;
+    height: 40px;
+    border: black 2px;
+    background-color: rgb(165, 34, 34);
+    
+
+    
+}
+
+input {
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    border: black 2px;
+}
+
+
+.lineaConO {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    padding: 40px;;
+}
+
+.linea {
+    flex-grow: 1;
+    color: rgb(233, 238, 246);
+    border-top: 1px solid;
+}
+
+.o {
+    color: rgb(233, 238, 246);
+    padding: 0 10px;
+}
+
+#login p,
+#login input,
+#login button {
+    margin: 10px 0;
+}
+
+footer {
+    padding: 300px;
+    font-size: 10px;
+}
+
+span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
