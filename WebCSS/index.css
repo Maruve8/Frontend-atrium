@@ -52,6 +52,11 @@ button {
     
 }
 
+button:hover {
+    background-color: rgb(200, 34, 34);
+    border: 4px;
+}
+
 input {
     width: 240px;
     height: 40px;
